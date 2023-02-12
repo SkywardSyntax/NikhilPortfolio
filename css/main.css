@@ -31,9 +31,9 @@ h1 {
   font-size: 60px;
   padding : 20px;
   background-color: #9b3b3b;
-  border-radius: 0 0  20px;
+  border-radius: 0 0 0 20px;
   left:66.5%;
-  bottom:81%;
+  bottom:72%;
   position:fixed;
 }
 
