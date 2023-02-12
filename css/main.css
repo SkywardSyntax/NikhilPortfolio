@@ -21,7 +21,7 @@ html {
 
 body {
   background: #b85912;
-  font_family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h1 {
@@ -31,9 +31,9 @@ h1 {
   font-size: 60px;
   padding : 20px;
   background-color: #9b3b3b;
-  border-radius: 0px 0 0px 20px;
+  border-radius: 0 0  20px;
   left:66.5%;
-  bottom:80%;
+  bottom:81%;
   position:fixed;
 }
 

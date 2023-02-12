@@ -1,0 +1,25 @@
+@keyframes CappuccinoLaser {
+  0% {
+    box-shadow: 0 0 0 0 #bcada3;
+  }
+  50% {
+    box-shadow: 0 0 0 30px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+button {
+  margin: auto;
+  padding:30px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 60px;
+  border-radius: 5px 5px 10px 10px;
+  border:none;
+  outline: none;
+}
+button:hover{
+  animation: CappuccinoLaser 1s linear infinite;
+}
