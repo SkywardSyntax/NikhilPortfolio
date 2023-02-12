@@ -8,8 +8,7 @@ a{
   position: relative;
   display: inline-block;
   align-items: center;
-  align-content: center;
-
+  bottom:100%;
 }
 
 .dropdown-button {
@@ -25,10 +24,13 @@ a{
   align-content: center;
   margin: auto;
   justify-content: center;
+  bottom:100%;
+  cursor: pointer;
 }
 
 .dropdown-button:hover {
   animation: blueLaser 1s linear infinite;
+
 }
 
 .dropdown-content button:hover {
@@ -44,15 +46,23 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 20px;
-  padding : 5px;
+  padding: 5px;
   text-align: center;
   outline: none;
   justify-content: center;
+  animation: dropDown 0.7s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .dropdown:hover .dropdown-content {
   display:block;
   position:absolute;
+
+
+
+
+
+
 }
 
 .dropdown-content button{
@@ -62,6 +72,13 @@ a{
   color : #fff;
   outline: none;
   border: none;
+
+
+
+
+
+
+
 }
 
 .dropdown-content button:hover{
@@ -71,5 +88,7 @@ a{
   color : #fff;
   outline: none;
   border: none;
+
+
 }
 

@@ -8,28 +8,39 @@ h1 {
   padding : 20px;
   background-color: #9b3b3b;
   border-radius: 0 0 0 20px;
-  left:66.5%;
-  bottom:72%;
-  position:fixed;
+  left: 70%;
+  bottom:70%;
+  position:absolute;
+  border-width: 10px 0px 10px 10px;
+  border-style: solid;
+  border-color: #bcada3;
+
 }
 
 h1:hover {
   animation: CappuccinoLaser 1s linear infinite;
+
 }
 
-h2{
-  display : block;
+h2 {
+  display: block;
   color: #9b3b3b;
   text-align: center;
   font-size: 40px;
-  padding : 15px;
+  padding: 15px;
   background-color: #bcada3;
-  border-radius:  0 20px 20px 0;
-  position:fixed;
-  left: 0%;
+  border-radius: 0 20px 20px 0;
+  position: fixed;
+  left: -9.1%;
   bottom: 74%;
+  transition: left 0.3s ease-in-out; /* Add a transition to make the movement smoother */
+
+
 }
 
 h2:hover {
-  animation: redLaserLong 1s linear infinite;
+  left: 0%;
+  bottom: 74%;
+  animation: CappuccinoLaser 1s linear infinite;
+
 }
