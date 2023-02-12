@@ -1,26 +1,4 @@
-@keyframes blueLaser {
-  0% {
-    box-shadow: 0 0 0 0 #00FFFF;
-  }
-  50% {
-    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
-  }
-}
 
-@keyframes redLaser {
-  0% {
-    box-shadow: 0 0 0 0 #ad0b17;
-  }
-  50% {
-    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
-  }
-}
 
 a{
   color : #fff;
@@ -36,7 +14,7 @@ a{
 
 .dropdown-button {
   position: relative;
-  padding: 10px 30px;
+  padding: 10px 55px;
   background-color: #1b9a92;
   color: #fff;
   font-size: 20px;
@@ -46,6 +24,7 @@ a{
   align-items: center;
   align-content: center;
   margin: auto;
+  justify-content: center;
 }
 
 .dropdown-button:hover {
@@ -68,13 +47,13 @@ a{
   padding : 5px;
   text-align: center;
   outline: none;
+  justify-content: center;
 }
 
 .dropdown:hover .dropdown-content {
   display:block;
   position:absolute;
 }
-
 
 .dropdown-content button{
   background-color: rgba(26, 150, 150, 0);
@@ -84,6 +63,7 @@ a{
   outline: none;
   border: none;
 }
+
 .dropdown-content button:hover{
   background-color: #900;
   border-radius : 15px;

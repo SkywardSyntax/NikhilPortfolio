@@ -1,0 +1,47 @@
+@keyframes CappuccinoLaser {
+  0% {
+    box-shadow: 0 0 0 0 #bcada3;
+  }
+  50% {
+    box-shadow: 0 0 0 30px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+@keyframes blueLaser {
+  0% {
+    box-shadow: 0 0 0 0 #00FFFF;
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+@keyframes redLaser {
+  0% {
+    box-shadow: 0 0 0 0 #ad0b17;
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+@keyframes redLaserLong {
+  0% {
+    box-shadow: 0 0 0 0 #ad0b17;
+  }
+  50% {
+    box-shadow: 0 0 0 30px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
