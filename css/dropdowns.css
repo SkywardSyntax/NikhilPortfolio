@@ -1,0 +1,95 @@
+@keyframes blueLaser {
+  0% {
+    box-shadow: 0 0 0 0 #00FFFF;
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+@keyframes redLaser {
+  0% {
+    box-shadow: 0 0 0 0 #ad0b17;
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+a{
+  color : #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+
+}
+
+.dropdown-button {
+  position: relative;
+  padding: 10px 30px;
+  background-color: #1b9a92;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.dropdown-button:hover {
+  animation: blueLaser 1s linear infinite;
+}
+
+.dropdown-content button:hover {
+  animation: redLaser 1s linear infinite;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1b9a92;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+  padding : 5px;
+  text-align: center;
+  outline: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+  position:absolute;
+}
+
+
+.dropdown-content button{
+  background-color: rgba(26, 150, 150, 0);
+  border-radius : 20px;
+  position : relative;
+  color : #fff;
+  outline: none;
+  border: none;
+}
+.dropdown-content button:hover{
+  background-color: #900;
+  border-radius : 15px;
+  position : relative;
+  color : #fff;
+  outline: none;
+  border: none;
+}
+
