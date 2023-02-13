@@ -45,6 +45,18 @@
   }
 }
 
+@keyframes CappuccinoLaserShort {
+  0% {
+    box-shadow: 0 0 0 0 #bcada3;
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
 @keyframes dropDown {
   0% { opacity: 0; transform: translateY(-10px); }
   25% { opacity: 1; transform: translateY(0px); }

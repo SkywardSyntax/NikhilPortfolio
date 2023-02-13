@@ -1,8 +1,14 @@
 
 
 a{
-  color : #fff;
+  color : #bcada3;
 }
+
+a:hover{
+  color : #ffffff;
+}
+
+
 
 .dropdown {
   position: relative;
@@ -15,7 +21,7 @@ a{
   position: relative;
   padding: 10px 55px;
   background-color: #1b9a92;
-  color: #fff;
+  color: #bcada3;
   font-size: 20px;
   border: none;
   border-radius: 15px;
@@ -35,13 +41,14 @@ a{
 
 .dropdown-content button:hover {
   animation: redLaser 1s linear infinite;
+  color: #fff;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #1b9a92;
-  color: #fff;
+  color: #ffffff;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
@@ -57,6 +64,7 @@ a{
 .dropdown:hover .dropdown-content {
   display:block;
   position:absolute;
+  color: #fff;
 
 
 

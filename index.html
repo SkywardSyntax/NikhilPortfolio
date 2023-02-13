@@ -14,6 +14,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -21,8 +22,10 @@
   <link rel = 'stylesheet' href="css/button.css">
   <link rel = 'stylesheet' href="css/dropdowns.css">
   <link rel = 'stylesheet' href="css/Headings.css">
-  <link rel = 'stylesheet' href="css/Radars.css">
+  <link rel = 'stylesheet' href="css/keyframes.css">
   <meta name="theme-color" content="#fafafa">
+
+
   <title>Nikhil's Portfolio</title>
 </head>
 
@@ -31,7 +34,7 @@
   <!-- Add your site or application content here -->
 
   <div class = dropdown>
-    <button class = dropdown-button>Engineering</button>
+    <button class = dropdown-button><strong>Engineering</strong></button>
     <div class = dropdown-content>
       <button> <a href = "IED.html">Intro To Engineering Design</a></button>
       <button><a href = "POE.html>">Principles Of Engineering</a></button>
@@ -41,7 +44,7 @@
   </div>
 
   <div class = dropdown>
-    <button class = dropdown-button>Robotics</button>
+    <button class = dropdown-button><strong>Robotics</strong></button>
     <div class = dropdown-content>
       <button><a href = "(Year 1) PrinciplesOfRobotics.html">Princ. of Robotics</a></button>
       <button><a href = "(Year 2) RoboticsI.html">Robotics I</a></button>
@@ -51,7 +54,7 @@
   </div>
 
   <div class = dropdown>
-    <button class = dropdown-button>Computer Science</button>
+    <button class = dropdown-button><strong>Computer Science</strong></button>
     <div class = dropdown-content>
       <button><a href = "(Year 1) APCSP.html"> AP Computer Science Principles</a></button>
       <button><a href = "(Year 2) APCSA.html"> AP Computer Science A</a></button>
@@ -62,12 +65,12 @@
 
 
   <div class = dropdown>
-      <button class = dropdown-button>Cyber Security</button>
+      <button class = dropdown-button><strong>Cyber-security</strong></button>
       <div class = dropdown-content>
-        <button><a href = "(Year 1) APCSP.html"> AP Computer Science Principles</a></button>
-        <button><a href = "(Year 2) FoundationsOfCsec.html"> Foundations Of Cyber Security</a></button>
-        <button><a href = "(Year 3) DigitalForensics.html"> Digital Forensics</a></button>
-        <button><a href = "(Year 4) CsecCapstone.html"> Cyber Security Capstone</a></button>
+        <button><a href = "APCSP.html"> AP Computer Science Principles</a></button>
+        <button><a href = "FoundationsOfCsec.html"> Foundations Of Cyber Security</a></button>
+        <button><a href = "DigitalForensics.html"> Digital Forensics</a></button>
+        <button><a href = "CsecCapstone.html"> Cyber Security Capstone</a></button>
       </div>
   </div>
 
@@ -79,12 +82,13 @@
 
   <h1><strong>Nikhil's Portfolio</strong></h1>
 
-  <h2>Hello!</h2>
+  <h2 id = 'HelloMessage'>Hello!</h2>
 
 
 
 
 
+  <script src="js/h2Stuff.js"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

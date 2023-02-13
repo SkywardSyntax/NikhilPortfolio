@@ -34,6 +34,7 @@ h2 {
   left: -9.1%;
   bottom: 74%;
   transition: left 0.3s ease-in-out; /* Add a transition to make the movement smoother */
+  animation: CappuccinoLaserShort 3s linear infinite;
 
 
 }
@@ -41,6 +42,6 @@ h2 {
 h2:hover {
   left: 0%;
   bottom: 74%;
-  animation: CappuccinoLaser 1s linear infinite;
+  animation: CappuccinoLaserShort 1s linear infinite;
 
 }
