@@ -8,8 +8,10 @@ h1 {
   padding : 20px;
   background-color: #9b3b3b;
   border-radius: 0 0 0 20px;
-  left: 70%;
-  bottom:70%;
+  right: -webkit-calc(-1% + 10px);
+  bottom: -webkit-calc(70% + 100px);
+  transform: translateX(0%);
+  transform: translateY(0%);
   position:absolute;
   border-width: 10px 0px 10px 10px;
   border-style: solid;
@@ -23,7 +25,7 @@ h1:hover {
 }
 
 h2 {
-  display: block;
+  display: inline-block;
   color: #9b3b3b;
   text-align: center;
   font-size: 40px;
@@ -31,17 +33,19 @@ h2 {
   background-color: #bcada3;
   border-radius: 0 20px 20px 0;
   position: fixed;
-  left: -9.1%;
-  bottom: 74%;
-  transition: left 0.3s ease-in-out; /* Add a transition to make the movement smoother */
+  left: -webkit-calc(106% + 10px);
+  bottom: -webkit-calc(74%);
+  transform: translateX(0%);
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in-out;
   animation: CappuccinoLaserShort 3s linear infinite;
-
-
 }
 
 h2:hover {
-  left: 0%;
-  bottom: 74%;
+  transform: translateX(83%);
+  transition: transform 0.3s ease-in-out;
   animation: CappuccinoLaserShort 1s linear infinite;
-
 }
+
+
+
