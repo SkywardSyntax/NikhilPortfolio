@@ -1,0 +1,17 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 0 50px 50px 0;
+  border-width: 10px;
+  border-color: #9b3b3b;
+  border-style: solid;
+  position: fixed;
+  right: -webkit-calc(77%);
+  bottom: -webkit-calc(47%);
+}
+
+img:hover{
+  animation: CappuccinoLaserShort 1s linear infinite;
+}
